@@ -1,4 +1,4 @@
-// Alex Scott, Program Template, v0.02
+// Alex Scott, Program Template, v0.03
 /*
 Generate secret number from a defined range of numbers (i.e. 0-10, 0-50, 0-100)
 Print game instructions including range and num. of guesses allowed. 
@@ -29,7 +29,17 @@ namespace numberGuess
         0 references 
         static void Main(string[] args)
         {
+            int secretNumber = -1;
+            int numGuesses = 0; // Number of guesses player is ALLOWED.
+            int numAttempts = 0; // Number of guesses TAKEN. 
+            int playerScore = 0;
+            int cpuScore = 0; 
+            string difficulty = "";
+            int rangeMin = -1;
+            int rangeMax = -1;
 
+            Console.WriteLine("Welcoome to the Number Guess Game!\nYpi wo;; select a difficult next.\n");
+            Console.WriteLine("Easy Mode: Range is 0 - 10 with 4 guesses.\nNormal Mode: Range is 0 - 25 with 4 guesses.\nHard Mode: range is 0 - 50 with 3 guesses.\n");
         }
     }
 }

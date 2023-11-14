@@ -1,6 +1,15 @@
 // Alex Scotts, Program Template, v0.1
 using System;
+/*
+Missing Examples
+Method with Return
+Method with Parameter
+Method with Multiple Parameters
+Method with Default Parameters
+Method Class using Named Arguments
+Method Overloading 
 
+*/
 namespace UpdateForEachProgram
 {
 
